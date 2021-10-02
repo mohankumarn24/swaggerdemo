@@ -14,7 +14,7 @@ public class HomeController {
 
 	@RequestMapping(value = "/secret", method = RequestMethod.GET)
 	public String secretMessage() {
-		return "This is the secret message";
+		return "This is the new secret message";
 	}
 
 }
